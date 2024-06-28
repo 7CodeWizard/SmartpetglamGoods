@@ -1,0 +1,688 @@
+@charset "utf-8";
+/*-----------------------=============================================================================================
+CSS FOR MEDIA QUERY
+----------------------============================================================================================---*/
+.show-mob, .show-tab {
+	display: none;
+}
+.show-desk {
+	display: block;
+}
+.fr {
+	float: right;
+}
+.fl {
+	float: left;
+}
+.tl{
+	text-align:left;
+}
+.for-mob {
+    display: none;
+}
+ @media only screen and (max-width:1200px) {
+.container {width: 1004px;}
+
+.menu-bar li a {padding: 0px 15px;}
+
+
+.bnr-lft { margin-top: 100px; width: 50%;}
+.brn-p1 {font-size: 24px;line-height: 30px;margin-bottom: 10px;}
+.brn-p3 {font-size: 48px; line-height: 60px;}
+.p2-bnr { margin: 11px 0 0 0; font-size: 18px; line-height: 30px;}
+.bnr-pet{top: 0px; width: 625px;}
+
+.section1 {        padding-bottom: 80px;}
+.s1-prodts {top: -40px;}
+.s1-hding2 { top: 373px;}
+.sec1-in {width:58%; padding: 75px 0 80px;}
+.comn-hdng { font-size: 34px; line-height: 44px;}
+
+.section5{ }
+ul.s5-list li{ padding: 0 0 0 0;}
+ul.s5-list li img {right: -37px;}
+.s5img{width:400px;margin:15px 0 0 30px;}
+.s5hding {padding: 0 0 0 0;}
+
+.s6prd{margin:-10px 50px 0 30px;}
+.banner {height: 502px;}
+.bnr-rgt {width: 52%;}
+.brn-prd { top: 345px;  left: 12%;}
+.s3-pic1 { top: -32px;  right: -122px;}
+.s3-pic2 { right: -195px !important;}
+
+.s4-lft { width: 65%; padding: 30px 0 42px;}
+.s4-mid { width: 86%; padding: 45px 0 0;}
+ul.s4list li { padding:0 0 0 0;}
+ul.s4list li img{ top:6px;}
+.s4lhding { font-size: 20px;}
+.s4-model { right: -22%; top: 230px; width: 660px;}
+
+.section-6 { padding: 40px 0;}
+.section-6 .comn-para{  width: 100%;}
+.s6-lft{width: 100%; text-align: center;}
+.s6-bg-img{top: -104px;right: -63px;max-width: 494px;}
+.s6-rgt-txt{    right: 173px;}
+.s6-mid { width: 84%;}
+
+.discnt-txt {left: 22%;}
+
+.strip{}
+ul.strp-lst li{ padding: 0px 0px 0px 54px; font-size: 14px;}
+/*-============================================
+CSS FOR CONTACT PAGE
+============================================-*/
+.shop-sec-1 .s2-prd-box {width: 33%;}
+.s2-block {}
+.cont-lft {
+    width: 45%;
+    padding: 35px;
+}
+.cont-right {
+    width: 55%;
+    padding: 35px;
+}
+.padng {padding: 0 0px;}
+
+.s5-lft {width: 57%;}
+
+}
+ @media only screen and (max-width:1023px) {
+.container {
+	width: 750px;
+}
+.show-mob, .show-desk {
+	display: none;
+}
+.show-tab {
+	display: block;
+}
+/*-------------------------
+CSS FOR LOGO BAR
+--------------------------*/
+.top-sec {
+	margin-bottom: 58px;
+}
+.top-bar {
+	height: 58px;
+	margin-top: -58px;
+	top: 58px;
+	padding: 6px 0;
+}
+.menu-bar {
+	display: none;
+}
+.mob-mnu-ic {
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 11px;
+	z-index: 16;
+	height: 25px;
+}
+.mob-mnu-ic button {
+	outline: none;
+	-webkit-appearance: none;
+	background: none;
+	padding: 0;
+	cursor: pointer;
+	border: none;
+	margin:0;
+}
+.mob-mnu-ic span {
+	color: #000;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 0px;
+	margin-right: 5px;
+}
+.bar1, .bar2, .bar3 {
+	width: 30px;
+	height: 4px;
+	background-color: #000;
+	transition: 0.4s;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+}
+.bar2 {
+	margin: 6px 0;
+}
+.dl-active .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-7px, 6px);
+	transform: rotate(-45deg) translate(-7px, 6px);
+	background: #000;
+}
+.dl-active .bar2 {
+	opacity: 0;
+}
+.dl-active .bar3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-8px, -8px);
+	background: #000;
+}
+.mob-menu-div {
+	float: left;
+	width: 100%;
+}
+.mobimenu {
+	float: left;
+	width: 100%;
+	position: fixed;
+	top: 84px;
+	background: #f4f8ff;
+	z-index: 3;
+	left: 0px;
+	bottom: 0px;
+}
+.mobimenu li {
+	float: left;
+	width: 100%;
+	color: #fff;
+	padding: 10px;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: left;
+	border-bottom: 1px solid #e1e1e1;
+	font-weight: normal;
+}
+.mobimenu li a {
+	color: #2d2d2d;
+	float: left;
+	width: 100%;
+	padding: 5px 10px;
+}
+.mobimenu li a:hover, .mobimenu li a.active {
+	text-decoration: none;
+}
+.mobimenu li ul {
+	float: left;
+	width: 100%;
+	padding: 0 18px;
+	border-bottom: 0;
+}
+.mobimenu li ul li:last-child {
+	border: none;
+}
+.mobimenu li a:hover .m-arw, .mobimenu li a.active .m-arw {
+	fill: #f08a3c;
+}
+.mobimenu.mobimenu-top {
+	top: 58px;
+}
+.menu-lock-mob{
+	right:62px;
+	top:6px;
+	position:absolute;
+}
+a.cart-top {
+	margin:1px 56px 0 0;
+}
+.logo {
+    
+}
+.logo {
+	position:inherit;
+    left: auto;
+    right:auto;
+    top: auto; 
+    margin: 0 0;    
+	max-width: 142px;
+}
+/*-------------------------
+CSS FOR BANNER 
+--------------------------*/
+
+.banner {background-position: 40% top; height: 485px;  background-size: cover;} 
+.bnr-pet { top: 40px; right: 0;  width: 470px;}
+.bnr-lft {  width: 57%;  margin-top: 66px;}
+.brn-p1 {font-size: 18px;line-height: 30px;}
+.brn-p3 {font-size: 42px; line-height: 52px;}
+.brn-p1 span {font-size: 32px;line-height: 48px;}
+.p1-bnr {
+    font-size: 37px;
+    line-height: 50px;
+}
+.p2-bnr {width: 100%;}
+.brn-prd {
+    top: 370px;
+    left: 0%;
+    width: 300px;
+}
+
+/*-------------------------
+CSS FOR SECTION 1
+--------------------------*/
+
+.section1 {background-position: 52% top;}
+
+.s1prd{width:350px;top:100px;}
+.sec1-in { width: 100%;  padding: 30px 0; text-align: center;}
+.s1-prodts { max-width: 100%; width: 360px; position: static; display: block; margin: 0 auto 0;}
+.s1-hding2 {
+    top: 373px;
+    position: static;
+    text-align: center;
+    margin: 28px auto 0;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.s1-hding span{ display:block;}
+.comn-hdng {font-size: 30px;line-height: 38px;}
+.comn-para { font-size: 16px; width: 100%;}
+
+.discnt-txt {left: 7%;top: 330px;padding: 8px 20px;}
+.discnt-txt span {font-size: 35px;line-height: 33px;}
+ul.s1list li {font-size: 18px;line-height: 30px;}
+ul.s1list li span {font-size: 25px;line-height: 30px;}
+/*-------------------------
+CSS FOR SECTION 2
+--------------------------*/
+.section2 {padding: 40px 0;}
+.s2-prd-box{width: 32%;padding: 0px 0 18px;}
+.s2-block{margin: 30px 0 0 0;justify-content: center;row-gap: 15px;}
+/*-------------------------
+CSS FOR SECTION 3
+--------------------------*/
+/************/
+.section3{}
+.section3 .comn-hdng span {font-size: 32px;line-height: 44px;}
+.s3imgbxbg{background-size:cover;width:400px;margin:0 auto;}
+.s3prd {    
+    margin: 40px -20px 0 0;
+    display: block;
+    width: 320px;
+}
+.s3txt {font-size: 22px;line-height: 32px;}
+.s3btn{margin:20px auto 0 auto;}
+
+/*-------------------------
+CSS FOR SECTION 4
+--------------------------*/
+.section4 { padding:30px 0; }
+.s4-mid { width: 100%; padding: 22px 0 0;}
+.s4-model{ right: -33%; top: 0; width: 566px;}
+.s4-lft {width: 62%; padding: 20px 0 0px;}
+ul.s4list{ margin-top:15px;}
+ul.s4list li { padding: 0 0 0;}
+.s1-pet-blt.s1-pet-blt {top: 240px; right: -54px;max-width: 215px;}
+
+ul.s4list li img { width:100px; }
+.s4lhding { font-size: 18px;}
+.s4ltxt { font-size: 16px; line-height: 24px;}
+/*-------------------------
+CSS FOR SECTION 5
+--------------------------*/
+.section5{ padding: 30px 0 30px 0;}
+.s5hding { font-size: 34px; line-height: 41px;}
+.s5-lft {  width: 69%;}
+
+ul.s5-list li { }
+ul.s5-list li span { font-size: 22px; line-height: 28px; margin-bottom: 2px;}
+ul.s5-list li img{}
+/*-------------------------
+CSS FOR SECTION 6
+--------------------------*/
+.section-6 {padding: 45px 0 0; }
+.s6-mid { width: 100%;}
+.s6rgt{ display:none;}
+.s3uls li{ width:69%;}
+.sec6_bg .s2-prd-box { width:45%;}
+/*-------------------------
+CSS FOR SECTION 6
+--------------------------*/
+.strip{ height: auto; padding: 62px 0;}
+.strip-txt {    font-size: 58px;}
+ul.strp-lst li{ line-height:24px;}
+/*-============================================
+CSS FOR INNER PAGE
+============================================-*/
+.s2-prd-div {width:100%;}
+.s2-prd-txt {width:100%; text-align:left; padding:5px 0px 0;}
+.s2-prd-1 {position: static;display: block;margin: 10px auto 0;transform: none;}
+.prd-s2-prd-div {width:100%;}
+.prd-s2-prd-1 {position: static;display: block;margin: 0 auto;transform: none;}
+.prd-sec-1 {padding: 40px 0;}
+.prdsec-stars {margin: 5px 0;}
+.dvdrline {margin: 10px 0;}
+
+.prdsec6{padding:40px 0;}
+.prds6lft{width:430px;}
+.s6prd{margin:20px 0 0 0;}
+
+/*-============================================
+CSS FOR CONTACT PAGE
+============================================-*/
+.cont-sec-1{
+	padding:50px 0;
+}
+.cont-lft {
+    width: 50%;
+    padding:25px 15px;
+}
+.cont-right {
+    width:50%;
+    padding: 25px 15px;
+}
+.cont-p1 {
+    font-size: 32px;
+    line-height: 32px;
+}
+.cont-ul li {
+    padding: 0 0 0 0px;
+}
+.cont-ul .s4-p1 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.shop-sec-1 {padding: 40px 0;}
+/*===============CHECKOUT_PAGE=================*/
+.steps-chk{ font-size:16px;}
+a.continue-btn{ width:310px; font-size:20px;}
+.order-smry-hdng{ font-size:20px; line-height:20px;}
+.prc-p1,.prc-p2{ font-size:16px; line-height:20px;margin-top: 15px;}
+.prc-p1 span{ font-size:14px;}
+
+}
+
+@media only screen and (max-width:767px) {
+.container {
+	width: 100%;
+	padding: 0 10px;
+	max-width: 600px;
+}
+.show-desk, .show-tab {
+	display: none;
+}
+.show-mob {
+	display: block;
+}
+.hide-mob{ display:none;}
+/*-------------------------
+CSS FOR LOGO BAR
+--------------------------*/
+.blue-strip {height:31px;display:none;}
+.blue-rgt{width:100%;}
+.blue-p2 {
+    display:inline-block;
+	float:none;
+    font-size: 14px;
+    line-height: 16px;
+}
+.blue-ship-icn {margin: -2px 1px 0 0;}
+.top-bar {
+	height: 55px;
+	margin-top: -55px;
+	top:55px;
+	padding:8px 0;
+}
+.top-sec {margin-bottom: 55px;}
+.mob-mnu-ic {top: 1px;}
+.mobimenu {top: 59px;}
+.mobimenu.mobimenu-top {top: 55px;}
+.mobimenu li ul li a {padding: 5px 10px;}
+.mobimenu li ul li {font-size: 16px;}
+.logo {max-width: 140px;}
+.menu-lock-mob {right: 60px;top: 4px;}
+a.cart-top {
+    margin: 5px 43px 0 0;
+	padding: 5px 7px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.mob-mnu-ic {top: 7px;}
+.foo-btm p{ font-size: 18px; line-height: 24px;}
+/*-------------------------
+CSS FOR BANNER
+--------------------------*/
+.banner{  height: auto; padding: 30px 0 36px 0; background-position: 31% top; background-size: unset;}
+
+.bnr-lft{width: 100%;text-align: center;margin: 0;}
+.brn-prd { width: calc(96% + 20px); position: static; display: inline-block; margin: 15px 0 0 0;}
+.brn-p1 {font-size:18px;line-height:26px;margin-bottom: 6px;}
+.brn-p3 {font-size: 34px; line-height: 40px;}
+
+.p1-bnr { font-size: 27px;line-height: 38px;text-align: center;}
+.p2-bnr{font-size: 17px;line-height: 26px; margin: 4px 0 0 0;}
+.shop-btn {float:none;margin:26px auto 0 auto;}
+
+/*-------------------------
+CSS FOR SECTION 1
+--------------------------*/
+.section1{ height:auto; padding:20px 0; background:#fff;}
+.section1 .s2-prd-1 { max-width: 190px !important;}
+.section1 .s2-prd-box { width: 100%;}
+.sec1-in{width:100%; text-align:center; margin-top: 0; padding:0;}
+.s1-prodt{ max-width:350px; position:static; display:block; margin:0 auto 0px; left:0; top:0;}
+.s1-prodts { position: static; max-width: 100%; margin: 45px 0 0px; width: 100%;}
+.discnt-txt {left: 50%;transform: translateX(-50%);top: 315px;padding: 8px 20px;}
+.discnt-txt span {font-size: 26px;line-height: 30px;}
+.s1-hding2{font-size: 32px;
+    line-height: 43px;}
+.s1-hding2 img {
+    margin: 0 10px -4px 0;
+    width: 143px;
+}
+.s1-hding {
+    font-size: 30px;
+    line-height: 44px;
+	margin-top:20px;
+}
+.s1-hding img{ width:300px;}	
+.comn-hdng { font-size: 30px; line-height: 36px; margin-bottom: 10px;}
+.comn-para { margin: 10px 0 0 0; font-size: 17px;  text-align: center;line-height: 26px;}
+ul.s1list li {margin: 20px 0 0 0;line-height: 30px;}
+.s1-lst{width: 100%; margin-top: 20px}
+.s1-lst li{font-size: 15px;line-height: 23px;}
+.s1-lst li img{margin: 0 auto 5px;max-width: 60px;}
+.s1-lst li span{font-size: 18px;line-height: 27px;}
+/*-------------------------
+CSS FOR SECTION 2
+--------------------------*/
+.section2{padding:30px 0 30px;}
+
+.s2hd::before, .s2hd::after{width:50px;}
+.s2-prd-box {width:100%; margin:0px auto 0;}
+.shop-sec-1 .s2-prd-box {width:350px;}
+.s2-block {row-gap: 20px;}
+.s2-p2 { font-size: 20px; line-height: 30px;}
+.s2-p3 {font-size: 20px;line-height: 30px;width: 55%;}
+.s2-prd-div {}
+.s2btn{margin:14px auto 0 auto;}
+/*-------------------------
+CSS FOR SECTION 3
+--------------------------*/
+.section3 {padding:30px 0;}
+.section3 .comn-hdng span {font-size: 22px;line-height: 32px;letter-spacing: 0.5px;}
+.s3uls li{ width:100%;padding: 10px 20px;height: auto;}
+.s3-pic1 { top: 0;  right: -122px; max-width: 340px;}
+.s3-li-box{width: 100%; padding:0;}
+.s3-pic1, .s3-pic2{max-width: 210px;position: static;display: inline-block;margin: 0 auto;}
+.s3-arw1 {margin: 0 5px 0 0;width: 30px;}
+.s3-arw2 {margin: 0 0px 0 5px;width: 30px;}
+ .s3-pic2 {        max-width: 344px;   }
+.s1-pet-blt.s1-pet-blt{top: 225px;right: 26px; max-width: 150px;}
+.s3btn{margin:22px auto 0 auto;}
+
+.strip {height: auto;padding: 30px 0;}
+.strip-txt {font-size: 36px;line-height: 44px;}
+/*-------------------------
+CSS FOR SECTION 4
+--------------------------*/
+.section4 { padding:20px 0px;}
+.s4-models{ max-width:350px; position:static; display:block; margin:0 auto; left:0; right:0; top:0;}
+.s4-lft { text-align:center; width:100%;}
+.s4lhding{         font-size: 15px;line-height: 23px;letter-spacing: -0.2px;}
+.s4ltxt {font-size: 14px;line-height: 24px; letter-spacing: -0.2px;}
+ul.s4list {padding: 10px;row-gap: 10px;}
+ul.s4list li { margin: 0px 0 0 0;padding: 0 0 0 0;width: 49%;border: none;}
+ul.s4list li img { width: 50px;}
+ul.s4list li:nth-child(2){ margin:0;}
+
+/*-------------------------
+CSS FOR SECTION 5
+--------------------------*/
+.section5{padding:20px 0 20px; text-align:center; background:#fff; height:auto; border-bottom:1px solid #ddd;}
+.s5-lft .comn-hdng {font-size: 30px;line-height: 40px;}
+.s5-lft {width: 100%;text-align: center;margin-top: 30px;}
+.s5hding {
+    font-size: 32px;
+    line-height: 41px;
+}
+ul.s5-list{column-gap: 5px;justify-content: space-around;}
+ul.s5-list li,ul.s5-list li:nth-child(even){width: 49%;margin: 0;font-size: 16px;line-height: 26px;text-align: center;}
+.section-6 .s2-prd-1 { max-width: 60% !important;}	
+.sec6_bg{ background:#fff !important;}
+
+ul.s5-list li span {margin-bottom: 5px;}
+ul.s5-list li img { margin: 0 auto 10px;max-width: 200px;width: 100%;}
+.s5txt{ margin-top:15px;}
+
+/*-------------------------
+CSS FOR SECTION 6
+--------------------------*/
+.section-6 {
+    padding: 20px 0; background:#f0efed;
+}
+ .sec6_bg .s2-prd-box {
+        width: 100%;
+    }
+.s6-tab .nav{ width:100%;}
+.s6-tab .tab-content {
+    width: 100%;}
+/*-----------------------
+CSS FOR FOOTER
+------------------------*/	
+.footerBox1{ padding:30px 0;}	
+.ftrBox1{ padding:0;}
+.ftr-logo{ position:static; width:85px; margin-bottom:10px; display:none;}
+.ftrBox2{ width:100%; margin-top:0px;}
+ul.frt-list{ margin-top:5px;}
+ul.frt-list li{ font-size:15px; margin-top:5px;}
+.ftrBox3{ width:100%;}
+ul.ftr-nav{ margin-top:0;}
+ul.ftr-nav li{ font-size: 16px; margin-top: 10px; margin-right: 0; width: 100%; line-height: 26px;}
+
+.footerBox2{ padding:20px 0; font-size:13px;}
+.ftr-cpyrght{ float:none; display:inline-block; vertical-align:middle;}
+.ftr-link{ float:none; display:inline-block; vertical-align:middle; margin-top:6px;}
+.ftr-link a{ padding:0;}
+/*-============================================
+CSS FOR INNER PAGE
+============================================-*/
+
+.shop-sec-1{ padding:30px 0;}
+.s5hding { font-size: 28px; line-height: 36px;}
+.prd-sec-1 {padding: 32px 0;}
+.innrBreadcrm{font-size: 14px;}
+.s2-prd-1 {max-width: 210px;}
+.prd-s2-prd-1 {width: 210px;}
+.prd-s1-lft, .prd-s1-rit {
+    width: 100%;
+    margin: 0px 0 10px;
+}
+.prd-s1-p1 {font-size: 22px; line-height: 28px;}
+.prd-s1-lft {padding: 0 0px 20px 0px;margin:10px 0 0 0;}
+.prdsec-stars{margin:15px 0 5px 0;}
+.hrytxt{margin:10px 0 0 0;}
+.add-to-cart{width:100%;margin:15px 0 0 0;}
+.prdsec6{padding:32px 0;}
+.prds6lft{width:100%;}
+.s6prd{float:none;margin:20px auto 0 auto;}
+.prd-s1-rit .comn-hdng {float: left;width: 100%; border:none;padding:0;margin-top: 30px;text-align: center !important;}
+ul.prd-s1-lft-list li {
+    margin-top: 18px;
+	}
+img.prd-slide-1 {max-width: 85%; margin: 0px auto 0 auto;}	
+.prd-s1-rit .s2-prd-box {width:350px;}
+.prd-s1-lft .s1-lst{margin-top: 20px; text-align: center;}
+/*-============================================
+CSS FOR CONTACT PAGE
+============================================-*/
+.cont-sec-1{padding:30px 0;}
+.cont-lft, .cont-right {
+    width: 100%;
+	padding: 20px 12px;
+}
+.cont-p1 {
+    font-size: 28px;
+    line-height: 30px;
+}
+.cont-ul li {
+   padding: 0;
+    margin-top: 20px;
+    width: 100%;
+}
+.cont-ul .s4-p1 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.cont-ic-1 {width:48px;}
+.cont-ul li .s4-p2 {
+    margin-bottom: 0;
+	font-size:18px;
+}
+.cont-ul .s4-p1 {
+    font-size: 16px;
+    line-height: 24px;
+	word-break:break-all;
+	font-weight:400;
+}
+.cont-hlf {width: 100%;}
+.cont-input-box {margin: 10px 0;}
+.cont-btn {margin: 20px 0 5px;}
+
+.toltip-content{ right:-10px; width:320px; font-size:12px;}
+p.prod-details-txt{ font-size:18px; width:100%;}
+.prd-strength-row{ width:100%;}
+.prd_quantity{ width:100%;}
+.s1hd{ font-size:20px;}
+img.prd-cards { display: block; margin-top: 24px; margin: 20px auto 0;}
+/*===============CHECKOUT_PAGE=================*/
+.checkout_section{ padding:20px 0;}
+.chk-right{ width:100%;}
+.chk-left{ width:100%; margin-top:20px;}
+.steps-chk{ padding:10px 0;}
+.frmBox{ padding:15px 10px;}
+.input-box.hlf{ width:100%;}
+.input-box.cvv{ width:48%;}
+.input-box.payfld {padding: 0 0 0 8px;}
+.fieldToggle{ font-size:14px; padding-left:25px;}
+a.continue-btn{ width:100%;margin-top: 15px;}
+a.bak-btn{ margin-top:15px; font-size:16px;}
+.order-smry-hdng{ font-size:22px;}
+.summry-drower {
+    float: left;
+    width: 100%;
+	display: none;
+	border-top:1px solid #ccc;
+	margin-top:20px;
+	}
+#summry-tog{position:relative;}
+#summry-tog.open:after {
+    background:url(../images/arrow-right.png) no-repeat center center;
+    background-size: 100%;
+	}
+#summry-tog:after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    height: 25px;
+    width:25px;
+    background: url(../images/arrow-dwn.png) no-repeat center center;
+    background-size: 100%;
+    transform: translateY(-50%);
+	}
+#summry-tog{border:none;margin:0;padding:0;}
+
+.drawer__header{height: 50px;padding-top: 12px;}
+.sub-total {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 7px;
+}
+}
+

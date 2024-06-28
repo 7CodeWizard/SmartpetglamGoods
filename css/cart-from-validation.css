@@ -1,0 +1,49 @@
+.formError {
+	position: relative;
+	left: auto;
+	top: auto;
+}
+input:invalid {
+/*background-color:#fff;*/
+}
+#frm-box label {
+/*font-weight:normal;*/
+}
+input[type='text'], input[type='number'], input[type='email'] {
+/*padding-left:3px;
+	padding-right:3px;*/
+}
+input[type='text'].formError, input[type='number'].formError, input[type='email'].formError, select.formError, .formError{
+	border: 1px solid orange !important;
+	background-image: url("../images/invalid.png")!important;
+	background-repeat: no-repeat!important;
+	background-position: 97% center;
+	position: relative;
+	display: inline-block;
+	top: auto;
+	left: auto;
+	height: 43px;
+}
+.trm.formError {
+    background-position: 0 0;
+	height: auto;
+}
+.trm input[type=checkbox].formError {
+    background:#f4f4f4 !important;
+	border: 1px solid #ccc !important;
+}
+label.formError {
+	border: 1px solid orange !important;
+	background-image: url("../images/invalid.png")!important;
+	background-repeat: no-repeat!important;
+	background-position: 2px 2px;
+}
+select.formError {
+/*background-position: 8% center;*/
+}
+div.formError {
+	border: 1px solid orange !important;
+	background-image: url("../images/invalid.png")!important;
+	background-repeat: no-repeat!important;
+	background-position: 13px 10px;
+}

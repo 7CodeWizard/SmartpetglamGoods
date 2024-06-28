@@ -1,0 +1,56 @@
+/*********** spinner start *************/
+.spintxt, .wan-spinner2 {
+	display: inline-block;
+    vertical-align: middle;
+}
+.spintxt{
+	font-size:18px;
+	text-align:left;
+	line-height:30px;
+	margin:5px 4px 0 0;
+	font-weight:500;
+}
+.wan-spinner2 { 
+        margin: 0px 0 0 0px;
+    border: 1px solid #ebebeb;
+    background: #fafafa;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/*-------------- */
+.wan-spinner2 .minus,
+.wan-spinner2 .plus,
+.wan-spinner2 input {
+  height: 52px;
+  float: left;
+  line-height: 1em;
+  padding: 0 4px;
+  text-align: center;
+  line-height:31px;
+  margin:0 0;
+  font-size:20px;
+  background:#fff;
+   font-weight:bold;
+}
+.wan-spinner2 input {
+  margin: 0;
+    width: 50px;
+	border:1px solid #ebebeb;
+}
+.wan-spinner2 .minus,
+.wan-spinner2 .plus {
+  font-weight:bold;
+  cursor: pointer;
+  text-decoration: none;
+  width: 40px;
+  color:#2d2d2d;
+  line-height:52px;
+  font-size:24px;
+}
+
+@media only screen and (max-width: 479px){
+.wan-spinner2 .minus,
+.wan-spinner2 .plus {width:70px;}
+
+}
+
